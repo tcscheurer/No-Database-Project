@@ -1,0 +1,27 @@
+.landingWrapper{
+    width: 100%;
+    height: 800px;
+    color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./pexels-photo-595229 (2).jpeg')
+}
+
+.cstm-landing-btn{
+    border: 1px solid darkorange;
+    color: darkorange;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.cstm-landing-btn:hover{
+    border: 1px solid black;
+    color: black;
+    background-color: darkorange;
+}
+
+.landingTitle{
+    color: darkorange;
+}

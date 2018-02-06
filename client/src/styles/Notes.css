@@ -1,0 +1,32 @@
+.NoteFormWrap{
+   color : darkorange;
+   margin-top: 70px;
+   
+}
+
+.noteFormBtn{
+    border: 1px solid darkorange;
+    background-color: black;
+    width: 100px;
+    border-radius: 40px;
+}
+
+.noteFormBtn:hover{
+    border: 2px solid black;
+    background-color: green;
+    color: black;
+    width: 100px;
+}
+
+.noteInput{
+    border: none;
+    border-bottom: 1px solid darkorange;
+    color: darkgray;
+    background-color:black;
+}
+
+.formTitle{
+    align-self: center;
+    color: darkgrey;
+    margin: 30px;
+}

@@ -1,0 +1,132 @@
+#main-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%; text-align: center;
+  }
+
+.jobWrapper{
+    margin-top: 50px;
+    width:1000px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+}
+
+.gitLink{
+ margin: 50px;
+ height: 80px;
+ width: 150px;
+ border: 1px solid darkorange;
+ background-color: black;
+ color: darkorange;
+ border-radius: 50px;
+}
+
+.gitLink:hover{
+    border: 3px solid black;
+    background-color: darkorange;
+    color: black;
+    cursor: pointer;
+}
+
+.jobImage{
+    margin: 100px;
+}
+
+.resultsBox{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.i{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid white;
+    margin: 10px;
+}
+
+.i:hover{
+    cursor: pointer;
+    border: 2px solid darkorange;
+}
+
+.btnWrapper{
+    position: fixed;
+    right: 30px;
+    top: 100px;
+
+}
+
+.refresh{
+    color: darkorange;
+    background-color: black;
+    border: 1px solid darkorange;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.refresh:hover{    
+    cursor: pointer;
+    color: black;
+    background-color: darkorange;
+    border: 1px solid black;
+}
+
+/*
+------------------------------------ below syles for the first case of conditional rendering ---------------------------------------------------------
+*/
+
+.searchFormWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: darkgrey;
+    margin-top: 40px;
+}
+
+.cst-search-btn{
+    border: 1px solid darkorange;
+    color: darkorange;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.cst-search-btn:hover{
+    border:2px solid black;
+    background-color: darkorange;
+    color:black;
+}
+
+.searchInput{
+    border: none;
+    border-bottom: 1px solid darkorange;
+    background-color: black;
+    color: darkgray;
+    margin-top: 30px;
+    width: 600px;
+}
+
+
+
+.cstm-select{
+    overflow: hidden;
+}
+
+
+.srchLbls{
+    color: darkorange;
+}

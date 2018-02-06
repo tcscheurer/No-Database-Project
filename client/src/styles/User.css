@@ -1,0 +1,71 @@
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.userImage{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    border: 1px solid white;
+}
+
+.userImage:hover{
+    border: 2px solid darkorange;
+}
+
+.interior{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: grey;
+}
+
+.inwrapper{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.userTitle{
+    width:200px;
+    height: 200px;
+   overflow: hidden;
+}
+
+.userLocation{
+    width:200px;
+    height:100px;
+    overflow: hidden;
+}
+
+.customBtn{
+    width:200px;
+}
+
+.customBtn:hover{
+    border: 2px solid red;
+    background-color: black;
+    color: red;
+}
+
+.userLink{
+    margin-bottom:10px;
+    width: 200px;
+    height:40px;
+    border-radius: 20px;
+    border: 1px solid darkorange;
+    background-color: black;
+    color: darkorange;
+
+}
+
+.userLink:hover{
+    border: 2x solid black;
+    background-color: darkorange;
+    color: black;
+    cursor: pointer;
+}

@@ -1,0 +1,44 @@
+.postWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: darkgrey;
+    margin-top: 40px;
+}
+
+.post-btn{
+    border: 1px solid darkorange;
+    color: darkorange;
+    background-color: black;
+    border-radius: 20px;
+    width: 100px;
+}
+
+.post-btn:hover{
+    border:2px solid black;
+    background-color: darkorange;
+    color:black;
+}
+
+.post-input{
+    border: none;
+    border-bottom: 1px solid darkorange;
+    background-color: black;
+    color: darkgray;
+    margin-top: 30px;
+    width: 600px;
+}
+
+.cstm-desc{
+    height: 100px;
+}
+
+.pstLbl{
+    color: darkorange;
+}
+
+.cstm-p-select{
+    overflow: hidden;
+}
